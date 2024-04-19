@@ -40,6 +40,7 @@ type GetFixtureResponse struct {
 	Venue           string       `json:"venue"`
 	City            string       `json:"city"`
 	Status          string       `json:"status"`
+	StatusLong      string       `json:"status_long"`
 	HomeTeam        string       `json:"home_team"`
 	AwayTeam        string       `json:"away_team"`
 	HomeGoals       int          `json:"home_goals"`
@@ -50,6 +51,7 @@ type GetFixtureResponse struct {
 	LeagueCountry   string       `json:"league_country"`
 	LeagueLogo      string       `json:"league_logo"`
 	CountryFlag     string       `json:"country_flag"`
+	TimeElapsed     int          `json:"time_elapsed"`
 	HomeLineup      LinueupStuct `json:"home_lineup"`
 	AwayLineup      LinueupStuct `json:"away_lineup"`
 	HomeCoach       string       `json:"home_coach"`
